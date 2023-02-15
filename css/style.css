@@ -699,4 +699,8 @@ background-color: var(--main-color);
         flex-flow: column;
         gap: 0;
     }
+    .about .row .image img{
+        height: auto; 
+    
+    }
 }
