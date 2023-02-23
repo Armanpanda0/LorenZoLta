@@ -652,6 +652,19 @@ background-color: var(--main-color);
     border-radius: .5rem;
     object-fit: cover;
 }
+.playlist .row .col .tutor{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.playlist .row .col .tutor img{
+   height: 5rem;
+   width: 5rem;
+   border-radius: 50%; 
+}
+
+
+
 
 
 
