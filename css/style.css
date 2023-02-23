@@ -612,7 +612,8 @@ background-color: var(--main-color);
 .playlist .row{
     display: flex;
     align-items: flex-end;
-    gap: 1.5rem;
+    gap: 2.5em;
+    align-items: center;
     flex-wrap: wrap;
     padding: 2rem;
     background-color: var(--white);
@@ -655,12 +656,50 @@ background-color: var(--main-color);
 .playlist .row .col .tutor{
     display: flex;
     align-items: center;
-    gap: 1.5rem;
+    gap: 1.7rem;
 }
 .playlist .row .col .tutor img{
    height: 5rem;
    width: 5rem;
    border-radius: 50%; 
+}
+.playlist .row .col .tutor h3{
+    font-size: 2rem;
+    color: var(--black);
+    margin-bottom: 2.5 rem;
+
+}
+.playlist .row .col .tutor span{
+    color: var(--main-color);
+    font-size: 1.5rem;
+}
+.playlist .row .col .details{
+   padding-top: 2rem;
+
+}
+.playlist .row .col .details h3{
+    font-size: 2rem;
+    color: var(--black);
+}
+.playlist .row .col .details p{
+    padding: 1rem 0;
+    line-height: 2;
+    color: var(--light-color);
+    font-size: 17px;
+
+}
+.playlist .row .col .details .date{
+    font-size: 2rem;
+    padding-top: 1rem;
+
+}
+.playlist .row .col .details .date i{
+    color: var(--main-color);
+    margin-inline-end: 1rem;
+
+}
+.playlist .row .col .details .date span{
+    color: var(--light-color);
 }
 
 
