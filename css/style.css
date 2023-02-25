@@ -750,6 +750,56 @@ background-color: var(--main-color);
 
 
 
+.watch-video .video-details{
+    background-color: var(--white);
+    padding: 2rem;
+
+}
+.watch-video .video-details .video{
+    width: 100%;
+    border-radius: .5rem;
+margin-bottom: 1rem;
+
+
+}
+.watch-video .video-details .titel{
+    font-size: 2rem;
+    color: var(--black);
+    padding: 1rem 0;
+
+}
+.watch-video .video-details .info{
+    display: flex;
+    gap: 2rem;
+
+}
+.watch-video .video-details .info p{
+    font-size: 2rem;
+}
+.watch-video .video-details .info p i{
+    margin-right: 1rem;
+    color: var(--main-color);
+}
+.watch-video .video-details .info p span{
+    color: var(--light-color);
+}
+.watch-video .video-details .tutor{
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.watch-video .video-details .tutor img{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+
+
+
 
 
 
