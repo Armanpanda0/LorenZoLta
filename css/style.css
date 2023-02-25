@@ -771,6 +771,8 @@ margin-bottom: 1rem;
 .watch-video .video-details .info{
     display: flex;
     gap: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: var(--border);
 
 }
 .watch-video .video-details .info p{
@@ -796,6 +798,56 @@ margin-bottom: 1rem;
     object-fit: cover;
 
 }
+.watch-video .video-details .tutor h3{
+    font-size: 2rem;
+    color: var(--black);
+    margin-bottom: .2rem;
+}
+.watch-video .video-details .tutor span{
+    color: var(--light-color);
+    font-size: 1.5rem;
+}
+.watch-video .video-details .flex{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    justify-content: space-between;
+}
+.watch-video .video-details .flex a{
+    margin-top: 0;
+}
+.watch-video .video-details .flex button{
+    background-color: var(--light-bg);
+    cursor: pointer;
+    padding: 1rem 2.5rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+}
+.watch-video .video-details .flex button i{
+    color: var(--black);
+}
+.watch-video .video-details .flex button span{
+    color: var(--light-color);
+}
+.watch-video .video-details .flex button:hover{
+background-color: var(--black);
+}
+.watch-video .video-details .flex button:hover i{
+    color: var(--whitek);
+}
+.watch-video .video-details .flex button:hover span{
+    color: var(--white);
+}
+.watch-video .video-details .description{
+    padding-top: 2rem;
+}
+.watch-video .video-details .description p{
+    line-height: 2;
+    font-size: 1.7rem;
+    color: var(--light-color);
+    white-space: pre-line ;
+}
+
 
 
 
@@ -905,5 +957,6 @@ margin-bottom: 1rem;
     .playlist .row .col .thumb img{
         height: 20rem;
     }
+   
 
 }
