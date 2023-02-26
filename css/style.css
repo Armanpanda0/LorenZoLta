@@ -606,6 +606,10 @@ background-color: var(--main-color);
 .footer span{
     color: var(--main-color);
 }
+.footer span:hover{
+    font-size: 4rem;
+}
+
 
 
 
@@ -914,6 +918,35 @@ background-color: var(--black);
     width: 2rem;
     background-color: var(--light-bg);
     clip-path: polygon(50% 0%, 0% 100% ,100% 100%);
+}
+
+
+
+.teachers .search-tutor{
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.2rem 2rem;
+    background-color: var(--white);
+    border: .5rem;
+
+}
+.teachers .search-tutor input{
+    width: 100%;
+    font-size: 1.8rem;
+    color: var(--black);
+    background: none;
+}
+.teachers .search-tutor button{
+    font-size: 2rem;
+    cursor: pointer;
+    color: var(--black);
+    background: none;
+}
+.teachers .search-tutor button:hover{
+    color: var(--main-color);
+    font-size: 4rem;
 }
 
 
