@@ -947,6 +947,36 @@ background-color: var(--black);
 .teachers .search-tutor button:hover{
     color: var(--main-color);
     font-size: 4rem;
+} 
+.teachers .box-conteainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+    gap: 1.5rem;
+    align-items: flex-start;
+    justify-content: center;
+}
+.teachers .box-conteainer .box{
+    border-radius: .5rem;
+    padding: 2rem;
+    background-color: var(--white);
+}
+.teachers .box-conteainer .box .tutor{
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.teachers .box-conteainer .box .tutor img{
+    height: 5rem;
+    width: 5rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+.teachers .box-conteainer .box .tutor h3{
+    color: var(--black);
+    font-size: 1.9rem;
 }
 
 
