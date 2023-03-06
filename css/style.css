@@ -1054,14 +1054,18 @@ background-color: var(--black);
 
 
 /*  */
+.contact .row{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
 
 .contact .row .image{
     flex: 1 1 50rem;
-    align-items: center;
-    gap: 2rem;
+    
 }
-.contact .row .image  img{
-    height: 40rem;
+.contact .row .image img{
+    height: 50rem;
     width: 100%;
 
 }
@@ -1108,6 +1112,22 @@ background-color: var(--black);
     font-size: 3rem;
     color: var(--main-color);
     margin-bottom: 1rem;
+}
+.contact .box-container .box h3{
+    margin: 1rem 0;
+    font-size: 2rem;
+    color: var(--black);
+}
+.contact .box-container .box a{
+    display: block;
+    margin-top: 1rem;
+    font-size: 1.7rem;
+    color: var(--light-color);
+    line-height: 2;
+    margin-top: 1rem;
+}
+.contact .box-container .box a:hover{
+    text-decoration: underline;
 }
 
 
@@ -1218,6 +1238,9 @@ background-color: var(--black);
     }
     .playlist .row .col .thumb img{
         height: 20rem;
+    }
+    .contact .row .image  img{
+       height: auto; 
     }
    
 
