@@ -966,6 +966,7 @@ background-color: var(--black);
     align-items: center;
     gap: 1.5rem;
 }
+
 .teachers .box-conteainer .box .tutor img{
     height: 5rem;
     width: 5rem;
@@ -979,7 +980,29 @@ background-color: var(--black);
     font-size: 1.8rem;
 
 }
+.teachers .box-conteainer .box .tutor span{
+    color: var(--main-color);
+    font-size: 1.8rem;
+}
+.teachers .box-conteainer .box p{
+    padding-top: 1rem;
+    font-size: 1.7rem;
+    color: var(--light-color);
+}
+.teachers .box-conteainer .box .tutor p span{
+    color: var(--main-color);
+}
+.teachers .box-conteainer .offer{
+    text-align: center;
+}
+.teachers .box-conteainer .offer h3{
+ font-size: 1.9rem;
+ color: var(--black);
+}
+.teachers .box-conteainer .offer p{
+    line-height: 2;
 
+}
 
 
 
