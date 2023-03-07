@@ -1201,6 +1201,7 @@ background-color: var(--black);
     border-radius: .5rem;
     padding: 2rem;
     align-items: center;
+    width: 50rems;
    
 }
 .form-container form h3{
