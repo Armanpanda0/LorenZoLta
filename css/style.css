@@ -1201,7 +1201,12 @@ background-color: var(--black);
     border-radius: .5rem;
     padding: 2rem;
     align-items: center;
-    padding-top: 1rem;
+   
+}
+.form-container form h3{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }
 .form-container form p{
     padding-top: 1rem;
@@ -1218,7 +1223,7 @@ background-color: var(--black);
     font-size: 1.8rem;
     color: var(--black);
     padding: 1.4rem;
-    background-color: var(--light-color);
+    background-color: var(--light-bg);
 }
 
 
